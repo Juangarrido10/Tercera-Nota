@@ -1,4 +1,4 @@
-package semana04.Objetos;
+package semana04.objetos;
 
 
 public class Main {

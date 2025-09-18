@@ -35,8 +35,7 @@ public class Employee {
             System.out.println("Su nuevo salario es de : " + salary);
             
         }else{
-            salary=salary;
+            System.out.println("El aumento debe ser mayor que 0");
         }
     }
-
 }

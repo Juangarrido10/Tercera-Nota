@@ -1,4 +1,4 @@
-package semana04.Ejercicio3;
+package semana04.box;
 
 public class Box {
     int size;
