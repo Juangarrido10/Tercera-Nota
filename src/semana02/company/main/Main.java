@@ -1,7 +1,7 @@
 
-package company.main;
+package semana02.company.main;
 
-import company.hr.Employee;
+import semana02.company.hr.Employee;
 
 public class Main {
  public static void main(String[] args) throws Exception {

@@ -1,0 +1,10 @@
+package semana04.Ejercicio3;
+
+public class Box {
+    int size;
+   
+    public  Box(int size) {
+        this.size = size;
+    
+    }
+}
