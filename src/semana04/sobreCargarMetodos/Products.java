@@ -1,4 +1,4 @@
-package semana04.sobreCargarMetodos;
+package semana04.sobrecargarMetodos;
 
 public class Products {
     public String name;
@@ -22,5 +22,13 @@ public class Products {
         this.price = price;
         this.quantity = quantity;
     }
+
+    public void update(String name) {
+        this.name = name;
+        }
+
+    public void update(double price) {
+        this.price = price;
+    }   
 
 }

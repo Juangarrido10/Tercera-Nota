@@ -1,4 +1,4 @@
-package semana04.sobreCargarMetodos;
+package semana04.sobrecargarMetodos;
 
 public class Main {
 
@@ -7,6 +7,7 @@ public class Main {
         Products producto1 = new Products();
         Products producto2 = new Products("Teclado", 120000);
         Products producto3 = new Products("Monitor", 400000, 5);
+        
 
         System.out.println("Producto 1");
         System.out.println("Nombre: " + producto1.name);
@@ -26,6 +27,9 @@ public class Main {
         System.out.println("Cantidad: " + producto3.quantity);
         System.out.println();
 
+        System.out.println("Actualizando producto 1");
+        producto1.update(200000);
+        producto1.update("Teclado Gamer");
     }
 
 }
