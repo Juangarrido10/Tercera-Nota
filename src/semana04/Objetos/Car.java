@@ -1,4 +1,4 @@
-package semana04.objetos;
+package semana04.Objetos;
 
 public class Car {
     String brand;
